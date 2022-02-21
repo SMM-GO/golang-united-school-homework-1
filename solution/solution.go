@@ -3,5 +3,6 @@ package solution
 import emoji "github.com/kyokomi/emoji"
 
 func GetMessage() string {
-	return emoji.Sprint("Hello :world_map:!")
+	s := emoji.Sprint("Hello :world_map:!")
+	return s
 }
